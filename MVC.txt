@@ -1,0 +1,39 @@
+framework 4.5
+MVC 4 Web Application
+empty razor
+Dodas novi folder u Views nazoves ga Home
+U njega dodas view (upload treba da viewengine
+bude Razor(CSHTML) )
+Dodajes jos jedan view "Raspored"
+U Models dodas klasu "RasporedModel"
+pastujes sve
+U controller dodas controller "HomeController"
+VAZNO TREBA DA Template(MVC controller with empty read/write actions)
+Iskopiras text od github i sve pastujes u to
+routeconfig
+na name umesto default pises Home
+na defaults cotroller umesto default pises  Home i
+umesto Index pises upload
+u controller dodajes klasu "ReadXMLRaspored"
+kopiras i pastujes u to
+Ukljucujes using System.Xml
+Svugde gde je RasporedModel stavljas
+Models.RasporedModel
+U HomeController sklanjas models u 33 red (od ReadXmlRaspored)
+I dodajes using System.IO
+Dodajes novi folder Xml
+kliknes na Show All Files to je iznad solution explorer
+U properties na sve copy to output directory stavis copy of newer
+To stavis na sve sto si dodao
+Sad gasis Show all files
+Pastujes u Upload pogled
+Pastujes u Raspored pogled
+Izmeni naziv od solution da se poklapa
+Dodajes folder CSS
+Dodajes css File Stylesteet.css i pastujes sve
+U HomeController 
+Gde je Display stavis Raspored i u RedirectToAction stavis
+"Raspored"
+Buildujes 
+View in browser
+GG
